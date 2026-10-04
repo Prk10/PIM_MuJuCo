@@ -39,5 +39,5 @@ WORKDIR /app
 COPY . /app
 
 # Command to run on startup (e.g., bash)
-CMD ["/bin/bash"]
 RUN cmake -B build && cmake --build build
+CMD ["/bin/bash"]
